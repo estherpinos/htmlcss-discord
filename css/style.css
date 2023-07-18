@@ -2,55 +2,64 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 20px;
 }
 
 .container-flex {
   display: flex;
   justify-content: center;
   margin: 0px auto;
-  width: 65%;
+  width: 85%;
   max-width: 1200px;
 }
 
 /* HEADER */
 
 header{
-  background-color: #ADD8E6; /*delete after*/
-  height: 100px;
+  background-color: #255EE9;
+  height: 80px;
 }
 
 
 #containerlogo{
   height: 100%;
-  background-color: #DAA520; /*delete after*/
-  border-style: dashed;/*delete after*/
-  border-width: 4px;/*delete after*/
   justify-content: space-between;
   align-items: center;
   padding: 0 15px 0 15px;
-  font-size: 30px;
-  text-align: center;
- 
-  
-
+  text-align: center; 
 }
 
-.logo{
-  border-right-style: dashed;/*delete after*/
-  border-width: 4px;/*delete after*/
-  padding-right: 100px;
+.logo img{
+  size: 100px;
 }
 
 .links ul li{
   list-style: none;
   display: inline;
-  
+  text-decoration: none;
+  color: white;
+  font-weight: 2rem;
+  padding-right: 25px;
+  font-weight: 100;
+}
+
+.link-menu:hover{
+  color: rgb(67, 67, 208);
 }
 
 .login{
-  border-left-style: dashed;
-  border-width: 4px;
-  padding-left: 100px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px 8px;
+  padding-left: 30px 10px;
+ 
+}
+
+.login a{
+  color: black;
+  text-decoration: none;
+  padding: 20px 10px;
+  
 }
 
 /* MAIN */
