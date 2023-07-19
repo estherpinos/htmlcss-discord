@@ -181,17 +181,55 @@ header{
 
 .section-tecnologia-affidabile{
   background-color: #D3D3D3 ;
-  height: 900px;
+  height: 1200px;
   padding: 50px 0px 50px 0px;
-
+  
 }
 
 #container-tecnologia-affidabile{
-  background-color: #228B22; /*delete after*/
-  border-style: dashed;/*delete after*/
-  border-width: 4px;/*delete after*/
   height: 800px;
+  width: 85%;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1200px;
+  
 }
+
+.title-big-section{
+  font-size: 2.4rem;
+  margin-bottom: 20px;
+
+}
+
+.text-big-section{
+  padding: 0px 80px;
+  line-height: 35px;
+  margin-bottom: 40px;
+}
+
+#container-tecnologia-affidabile img{
+  width: 1200px;
+}
+.stars{
+  background-image: url(../img/img/stars.svg);
+  height: 100px;
+  background-size: contain;
+  background-repeat:no-repeat;
+  margin: 0 auto;
+  width: 600px;
+}
+
+.stars p{
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 35px 30px 0 30px; 
+}
+
+#scarica-per-mac{
+  background-color: #7289DA;
+  color: white;
+}
+
 
 
 
