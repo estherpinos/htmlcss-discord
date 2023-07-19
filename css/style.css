@@ -237,26 +237,48 @@ header{
 
 .container-footer{
   background-color: #23272A;
-  height: 500px;
+  height: 650px;
   padding: 10px 0px 25px 0px;
 }
 
 .il-tuo-posto-per-parlare{
-  background-color: #F08080;/*delete after*/
+  justify-content: flex-start;
   width: 35%;
   height: 450px;
+  padding-top: 30px;
+}
+
+.il-tuo-posto-per-parlare h1{
+  font-size: 2.4rem;
+  color: #5F85E2;
+  margin-bottom: 20px;
+}
+
+.lenguage-flex{
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+  height: 20px;
+}
+
+.lnguage-flex img{
+  width: 25px;
+  height: 20px;
   justify-content: flex-start;
-  border-style: dashed;/*delete after*/
-  border-width: 4px;/*delete after*/
+}
+
+.lenguage-flex h6{
+  font-size: 0.9rem;
+  color: white;
+  margin-left: 5px;
+  font-weight: lighter;
+
 }
 
 .option-footer{
-  background-color: #20B2AA; /*delete after*/
   width: calc(65% / 4);
   height: 450px;
-  border-style: dashed;/*delete after*/
-  border-width: 4px;/*delete after*/
-  border-color: white;/*delete after*/
+  padding-top: 30px;
 }
 
 .option-footer ul li:first-child{
@@ -267,8 +289,10 @@ header{
   list-style: none;
   text-align: left;
   margin: 0 auto;
-  padding: 20px 20px;
+  padding: 15px 20px;
   color: white;
+  font-size: 0.9rem;
+  font-weight: bold;
 }
 
 /* CONTAINER FOOTER DISCORD */
