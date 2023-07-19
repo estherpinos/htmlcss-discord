@@ -259,6 +259,7 @@ header{
   justify-content: space-between;
   width: 100px;
   height: 20px;
+  margin-bottom: 30px;
 }
 
 .lnguage-flex img{
@@ -272,7 +273,18 @@ header{
   color: white;
   margin-left: 5px;
   font-weight: lighter;
+}
 
+.lenguage-flex i{
+  color: white;
+  margin-left: 5px;
+}
+
+.social i{
+  color: white;
+  margin-right: 35px;
+  font-size: 25px;
+  
 }
 
 .option-footer{
