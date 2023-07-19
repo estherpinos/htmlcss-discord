@@ -19,6 +19,17 @@
 header{
   background-color: #255EE9;
   height: 80px;
+  padding-top: 20px;
+}
+
+.top-bar-fix{
+  position: fixed;
+  width:  100%;
+  height: 80px;
+  background-color: #255EE9;
+  top: 0;
+  left: 0;
+
 }
 
 
@@ -36,7 +47,7 @@ header{
 
 .links ul li{
   list-style: none;
-  display: inline;
+  display: inline-block;
   text-decoration: none;
   color: white;
   font-weight: 2rem;
@@ -61,6 +72,7 @@ header{
 }
 
 .btn{
+  display: inline-block;
   text-decoration: none;
   padding: 15px 12px;
   border-radius: 20px;
@@ -77,6 +89,7 @@ header{
   width: 100%;
   height: 580px;
   background-size: cover;
+  background-position: center;
 }
 
 
@@ -103,6 +116,7 @@ header{
 /* BUTTONS BOTTOM */
 
 #scarica{
+  display: inline-block;
   text-decoration: none;
   background-color: white;
   margin-right: 15px;
@@ -110,6 +124,7 @@ header{
 }
 
 #browser{
+  display: inline-block;
   text-decoration: none;
   background-color: #23272A;
   color: white;
@@ -122,13 +137,9 @@ header{
 .section-white{
   background-color: white;
   padding: 50px 0px 50px 0px;
-  background-image: url(../img/img/wave.svg);
-  background-size: 100% 50px;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  
-  
+
 }
+
 
 
 
@@ -225,6 +236,7 @@ header{
   background-repeat:no-repeat;
   margin: 0 auto;
   width: 600px;
+  background-position: center;
 }
 
 .stars p{
@@ -288,10 +300,13 @@ header{
   margin-left: 5px;
 }
 
-.social i{
+
+.social li{
   color: white;
   margin-right: 35px;
   font-size: 25px;
+  list-style: none;
+  display: inline-block;
   
 }
 
